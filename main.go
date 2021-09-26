@@ -3,6 +3,7 @@ package main
 import (
 	"html/template"
 	"net/http"
+	"os"
 )
 
 
@@ -15,7 +16,13 @@ func main() {
 	http.HandleFunc("/project", projectPage)
 
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
-	http.ListenAndServe(":8080", nil)
+
+	portNumber, ok := os.LookupEnv("PORT")
+	if !ok {
+		portNumber = "8080"
+	} else {
+	}
+	http.ListenAndServe(":"+portNumber, nil)
 }
 
 func homePage(writer http.ResponseWriter, request *http.Request) {
