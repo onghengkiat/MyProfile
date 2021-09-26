@@ -1,0 +1,55 @@
+{{template "base_template" .}}
+
+{{define "title"}}
+Personal Projects
+{{end}}
+
+{{define "body"}}
+<div class="jumbotron">
+    <div class="container">
+        <h3>PERSONAL PROJECTS</h3>
+    </div>
+</div>
+
+
+<div class="container pt-3"> 
+    <div class="list-group">
+        <li class="list-group-item list-group-item-action list-group-item-dark" data-toggle="collapse" data-target="#SA-Visualization">
+            1) SA-Visualization
+        </li>
+        <div id="SA-Visualization" class="container collapse pt-3">
+            <p>
+                <strong>Description: </strong><br/>
+                A webapp to visualize how the sorting algorithms work
+            </p>
+            <p>
+                <strong>WebApp Link:</strong><br/>
+                <a href="https://sa-visualization.herokuapp.com/">https://sa-visualization.herokuapp.com/</a>
+            </p>
+            <p>
+                <strong>Source Code Link:</strong><br/>
+                <a href="https://github.com/onghengkiat/SA-Visualization">https://github.com/onghengkiat/SA-Visualization</a>
+            </p>
+        </div>
+
+        <li class="list-group-item list-group-item-action list-group-item-light" data-toggle="collapse" data-target="#ER-Analysis">
+            2) Employment Rate Analysis
+        </li>
+        <div id="ER-Analysis" class="container collapse pt-3">
+            <p>
+                <strong>Description: </strong><br/>
+                A shiny webapp made using R language about the employment rate analysis.
+                It was made for one my 
+            </p>
+            <p>
+                <strong>WebApp Link:</strong><br/>
+                <a href="https://onghengkiat.shinyapps.io/employment_rate_analysis_webapp/">https://onghengkiat.shinyapps.io/employment_rate_analysis_webapp/</a>
+            </p>
+            <p>
+                <strong>Source Code Link:</strong><br/>
+                <a href="https://github.com/onghengkiat/EmploymentRateAnalysis">https://github.com/onghengkiat/EmploymentRateAnalysis</a>
+            </p>
+        </div>
+    </div>
+</div>
+{{end}}

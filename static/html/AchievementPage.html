@@ -1,0 +1,77 @@
+{{template "base_template" .}}
+
+{{define "title"}}
+Achievement
+{{end}}
+
+{{define "body"}}
+<div class="jumbotron">
+    <div class="container">
+        <h3>ACHIEVEMENTS</h3>
+    </div>
+</div>
+
+<div class="container pt-3">
+    <ul class="list-group">
+
+        <li class="list-group-item list-group-item-action list-group-item-dark" data-toggle="collapse" data-target="#codingLeague2020">
+            1) Coding League 2020
+            <img src="static/pic/DeanCup2020.png" width=60px height=60px>
+        </li>
+        <div id="codingLeague2020" class="collapse pb-5">
+            <strong>Organizer:</strong> <img src="static/pic/PEKOM.png" width=60px height=60px>
+            <br />
+            <strong>Event Date:</strong> 28/2/2020
+            <br /><br />
+            <strong>Description:</strong>
+            <p>
+                This event is under the Dean's Cup which is opened for the first year students of the 
+                Faculty of Computer Science and Information Technology (FCSIT). 
+                A team from each department of FCSIT were competing with each other in this competition. In this event,
+                my team joined on behalf of the department of Data Science. We tried our best in this event
+                but we slightly lose to another team and got 2nd place at the end of this competition.
+            </p>
+            <img src="static/pic/CodingLeague2020.jpg" width=100%>
+        </div>
+
+        <li class="list-group-item list-group-item-action list-group-item-light" data-toggle="collapse" data-target="#programmingLeague2020">
+            2) Programming League 2020 (Closed Category)
+            <img src="static/pic/ProgrammingLeague.png" width=60px height=60px>
+        </li>
+        <div id="programmingLeague2020" class="collapse pb-5">
+            <strong>Organizer:</strong> <img src="static/pic/PEKOM.png" width=60px height=60px>
+            <br />
+            <strong>Event Date:</strong> 6/6/2020
+            <br /><br />
+            <strong>Description:</strong>
+            <p>
+                I have joined the closed category of this event organized by PEKOM UM which is only
+                opened for first year students of the Faculty of Computer Science and Information Technology 
+                (FCSIT). Gladly, I have joined it and got the first place in this competition with my teammates.
+            </p>
+            <img src="static/pic/programming-league-2020.png" width=100%>
+            <img src="static/pic/programming-league-2020-cert.png" width=100% style="margin-top: 30px">
+        </div>
+
+        <li class="list-group-item list-group-item-action list-group-item-dark" data-toggle="collapse" data-target="#programmingLeague2021">
+            3) Programming League 2021 (Open Category)
+            <img src="static/pic/ProgrammingLeague.png" width=60px height=60px>
+        </li>
+        <div id="programmingLeague2021" class="collapse pb-5">
+            <strong>Organizer:</strong> <img src="static/pic/PEKOM.png" width=60px height=60px>
+            <br />
+            <strong>Event Date:</strong> 22/5/2021
+            <br /><br />
+            <strong>Description:</strong>
+            <p>
+                I have joined the open category of this event organized by PEKOM UM which is only
+                opened for University of Malaya (UM) students. Gladly, I have joined it and 
+                got the first place in this competition with my teammates.
+            </p>
+            <img src="static/pic/programming-league-2021-cert.png" width=100%>
+        </div>
+    </ul>
+
+</div>
+
+{{end}}

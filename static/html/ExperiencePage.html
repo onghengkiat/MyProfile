@@ -1,0 +1,109 @@
+{{template "base_template" .}}
+
+{{define "title"}}
+Experience
+{{end}}
+
+{{define "body"}}
+<div class="jumbotron">
+    <div class="container">
+        <h3>EXPERIENCES</h3>
+    </div>
+</div>
+
+
+<div class="container pt-3">
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-action list-group-item-dark" data-toggle="collapse" data-target="#memosa">
+            1) Backend developer at Memosa
+        </li>
+        <div id="memosa" class="container collapse pt-3 pb-5">
+            <p>
+                <strong>Working Duration: </strong><br/>
+                September 2020 - March 2021
+            </p>
+            <p>
+                <strong>Description: </strong><br/>
+                Making a web application hosted online to help in smoothing the
+                diagnosis of patients by the clinicians.
+            </p>
+            <strong>My Roles:</strong>
+            <ul>
+                <li>Dealing with the Database with postgreSQL</li>
+                <li>Making the website using Flask in Python</li>
+                <li>Managing the microservices architecture and web proxies by using Nginx and Docker</li>
+                <li>Creating a websocket funtionalities for chat module using Golang</li>
+            </ul>
+        </div>
+
+        <li class="list-group-item list-group-item-action list-group-item-light" data-toggle="collapse" data-target="#tutorFOP2020">
+            2) Teaching assistant at University of Malaya (UM)
+        </li>
+        <div id="tutorFOP2020" class="container collapse pt-3 pb-5">
+            <p>
+                <strong>Working Duration: </strong><br/>
+                October 2020 - January 2021
+            </p>
+            <p>
+                <strong>Description: </strong><br/>
+                Being a tutor for Fundamentals of Programming (WIX1002) Session 2020/2021 Semester 1
+                at University of Malaya to teach the students about the basics of Java.
+            </p>
+            <strong>My Roles:</strong>
+            <ul>
+                <li>Designing the assignment question for the course</li>
+                <li>Handling the lab session of the course</li>
+                <li>Tutoring and leading the students</li>
+            </ul>
+        </div>
+
+        <li class="list-group-item list-group-item-action list-group-item-dark" data-toggle="collapse" data-target="#CITF">
+            3) Developer in COVID-19 Immunisation Task Force (CITF)
+        </li>
+        <div id="CITF" class="container collapse pt-3 pb-5">
+            <p>
+                <strong>Working Duration: </strong><br/>
+                March 2021 - Now
+            </p>
+            <p>
+                <strong>Description: </strong><br/>
+                Being a member of the UM iLab team to collaborate with MIMOS to design, create and 
+                enhance the dashboard using Apache Superset for the Malaysia government to 
+                monitor the vaccination progress in Malaysia
+            </p>
+            <strong>My Roles:</strong>
+            <ul>
+                <li>Modifying the Apache Superset codes for more enhancements on the charts</li>
+                <li>Developing authentication timeout and prevention of concurrent login on Apache Superset</li>
+                <li>Styling the dashboard</li>
+                <li>Creating python scripts to perform data validation</li>
+                <li>Developing the log parsers and analyzing the nginx, gunicorn, checkmk, linux, postgresql, redis and haproxy logs</li>
+            </ul>
+        </div>
+
+        <li class="list-group-item list-group-item-action list-group-item-light" data-toggle="collapse" data-target="#panasonicIOT">
+            4) Developer at Panasonic
+        </li>
+        <div id="panasonicIOT" class="container collapse pt-3 pb-5">
+            <p>
+                <strong>Working Duration: </strong><br/>
+                April 2021 - Now
+            </p>
+            <p>
+                <strong>Description: </strong><br/>
+                Develop a dashboard for the Panasonic to monitor the efficiency of the assembly lines and design
+                an IoT architecture to collect the data from the machines on the assembly lines using Python and 
+                React.
+            </p>
+            <strong>My Roles:</strong>
+            <ul>
+                <li>Developing the dashboard</li>
+                <li>Performing the ETL process to extract the data from the machines</li>
+                <li>Designing the database structure</li>
+                <li>Desgining the infrastructure of the webapp</li>
+            </ul>
+        </div>
+
+    </ul>
+</div>
+{{end}}
