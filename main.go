@@ -15,7 +15,7 @@ func main() {
 	http.HandleFunc("/project", projectPage)
 
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
-	http.ListenAndServe(":8088", nil)
+	http.ListenAndServe(":8080", nil)
 }
 
 func homePage(writer http.ResponseWriter, request *http.Request) {
