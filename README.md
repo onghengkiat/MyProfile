@@ -16,7 +16,7 @@ Also it shows up about myself.
 
 ## User Guide
 ---
-The website is hosted on <a class="font-weight-bolder" href="https://onghengkiat.herokuapp.com/">My Profile</a>.
+The website is hosted on <a class="font-weight-bolder" href="https://onghengkiatv1.herokuapp.com/">My Profile</a>.
 
 ## Developer Guide
 
